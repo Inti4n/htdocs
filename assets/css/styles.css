@@ -1,0 +1,34 @@
+.brimslogo {
+  width: 80px;
+  height: 80px;
+}
+
+.fs-6 {
+  font-size: 20px!important;
+}
+
+.link-light {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+
+.link-light:focus, .link-light:hover {
+  color: #01cd15;
+}
+
+.border {
+  border: 0px solid #dee2e6!important;
+}
+
+.btn-check:active + .btn-primary, .btn-check:checked + .btn-primary, .btn-primary.active, .btn-primary:active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #0a58ca;
+  border-color: #0a53be;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
