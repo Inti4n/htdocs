@@ -143,7 +143,7 @@
                     </form>
                 </div>
             </div>
-            <div class="col-lg-6 d-flex align-items-end" id="bg-block" style="background-image: url(&quot;assets/img/vaccine1.png&quot;);background-size: cover;background-position: center center;">
+            <div class="col-lg-6 d-flex align-items-end" id="bg-block" style="background-image: url(&quot;assets/img/buildings3.jpg&quot;);background-size: cover;background-position: center center;">
                 <p class="ms-auto small text-dark mb-2"><br></p>
             </div>
         </div>
