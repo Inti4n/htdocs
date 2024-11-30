@@ -1,5 +1,5 @@
 <nav class="navbar navbar-light navbar-expand-md py-3" style="background: rgb(0, 153, 51);">
-<div class="container"><img class="rhulogo" src="assets/img/brimslogo.png"><a class="navbar-brand d-flex align-items-center" href="index.php" style="font-family: Roboto, sans-serif;">
+<div class="container"><img class="brimslogo" src="assets/img/brimslogo.png"><a class="navbar-brand d-flex align-items-center" href="index.php" style="font-family: Roboto, sans-serif;">
 <div class="d-inline-block"><span style="color: rgba(255,255,255,1);padding: 0px;"><strong>&nbsp;&nbsp;BRIMS</strong><br /><span style="color: rgba(255,255,255,1);padding: 0px;font-size:12px"><p>&nbsp;&nbsp;&nbsp;Barangay Records and Information Management System</p></span></span></div>
 </a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3" style="text-align: right;"><span class="visually-hidden">Toggle navigation</span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" style="color: rgba(255,255,255,1);font-size: 39px;opacity: 1;filter: brightness(100%);">
                     <path d="M2 6C2 5.44772 2.44772 5 3 5H21C21.5523 5 22 5.44772 22 6C22 6.55228 21.5523 7 21 7H3C2.44772 7 2 6.55228 2 6Z" fill="currentColor"></path>
