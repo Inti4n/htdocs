@@ -169,7 +169,7 @@ $brims_id =  substr($place, 0, 5) . '-' . date('dmy') . '-' . $code . '-' . $db_
 			$query = mysqli_query($connections, "INSERT INTO tbl_feedback(email, feedback) VALUES ('$fb_email', '$fb_message')");
 
 				echo "<script language='javascript'>alert('Your message is submitted')</script>";
-				echo "<script>window.location.href='regformadmin.php';</script>";
+				echo "<script>window.location.href='regformuser.php';</script>";
 
 		}
 
