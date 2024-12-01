@@ -62,13 +62,12 @@ include("../connections.php");
 
 <!DOCTYPE html>
 <html lang="en">
-
 <?php include("header.php"); ?>
 
 <body>
 <?php include("navbar.php"); ?>
     <div>
-        <div class="d-flex justify-content-center align-items-center"><img class="img-fluid d-flex justify-content-center align-items-center searchbg" data-aos="fade-up" data-aos-duration="1000" src="assets/img/vaccinated.png"></div>
+        <div class="d-flex justify-content-center align-items-center"><img class="img-fluid d-flex justify-content-center align-items-center searchbg" data-aos="fade-up" data-aos-duration="1000" src="assets/img/customerservice.webp"></div>
         <div>
             <div class="p-5 mb-4 bg-light round-3">
                 <div class="container-fluid py-5">
@@ -86,7 +85,7 @@ include("connections.php");
 			$check = $_GET["search"];
 	
 			$terms = explode(" ", $check);
-			$q = "SELECT * FROM tbl_vacinfo WHERE " ;
+			$q = "SELECT * FROM tbl_residentinfo WHERE " ;
 			$i = 0;
 	
 
@@ -95,9 +94,9 @@ include("connections.php");
 			$i++;
 			
 			if($i==1){
-				$q .="vacidno LIKE '%$each%' ";
+				$q .="brimsidno LIKE '%$each%' ";
 			} else {
-				$q .= "OR vacidno LIKE '%$each%' ";
+				$q .= "OR brimsidno LIKE '%$each%' ";
 			} if($i==2){
 				$q .="surname LIKE '%$each%' ";
 			} else {
@@ -123,7 +122,7 @@ include("connections.php");
 			
 			while($row = mysqli_fetch_assoc($query)){
 			
-				echo "<p class='col-md-8 fs-4' style='text-align: left;'>". $vacidno = $row["vacidno"] . "-" . " " . $fname = $row["firstname"] . "  " . $mname = $row["middlename"] . "  " . $sname = $row["surname"] . "  " . $suffix = $row["suffix"] . "</p>". "<br>";
+				echo "<p class='col-md-8 fs-4' style='text-align: left;'>". $brimsidno = $row["brimsidno"] . "-" . " " . $fname = $row["firstname"] . "  " . $mname = $row["middlename"] . "  " . $sname = $row["surname"] . "  " . $suffix = $row["suffix"] . "</p>". "<br>";
 			}
 		}else {
 	
@@ -139,9 +138,7 @@ include("connections.php");
         </div>
         <div style="border-style: none;"></div>
     </div>
-
     <?php include("footer.php"); ?>
-
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>

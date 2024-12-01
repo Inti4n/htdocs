@@ -330,7 +330,9 @@ $brims_id =  substr($place, 0, 5) . '-' . date('dmy') . '-' . $code . '-' . $db_
                 </div>
             </form>
         </div>
-    </div><div class="bootstrap_datatables">
+    </div>
+	
+<div class="bootstrap_datatables">
 <div class="container py-5">
   <header class="text-center text-black">
       <h2 class="display-4"><b>PERSONAL INFORMATION TABLE</b></h2>

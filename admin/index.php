@@ -82,7 +82,9 @@ include("../connections.php");
     <div class="d-flex justify-content-center align-items-center" style="padding: 20px;margin: 8px;"><iframe src="https://free.timeanddate.com/clock/i860qgq3/n145/tlph/fs34/fc093/tceee/pct/ftb/bas3/bac999/tt0/th2" frameborder="0" width="736" height="46" allowtransparency="true"></iframe>
         <br></div>
 
-        
+ 
+        <?php include("blogspot.php"); ?>
+        <br>
         <?php include("footer.php"); ?>
 
 

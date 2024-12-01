@@ -2,7 +2,7 @@
 //Typewriter Style Start
 
 document.addEventListener('DOMContentLoaded',function(event){
-  var dataText = [ "Wash your Hands.", " Wear a Face Mask.", "Social Distancing.", "Stay at Home.", "Get Vaccinated!"];
+  var dataText = [ "Welcome!", "We are here at your service!", "Request your needs", "Be Informed", "Visit Us!"];
   
 
   function typeWriter(text, k, fnCallback) {
