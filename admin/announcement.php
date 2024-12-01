@@ -60,17 +60,17 @@ include("../connections.php");
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include 'header.php' ?>
+<?php include("header.php"); ?>
 
 <body>
-<?php include 'navbar.php' ?>
+<?php include("navbar.php"); ?>
 
     <div class="d-flex justify-content-center align-items-center"><img class="img-fluid d-flex justify-content-center align-items-center contact" data-aos="fade-up" data-aos-duration="1000" src="assets/img/announcement.png" style="width: 1041.6px;height: 473.8px;"></div>
 		
 	<br>
-	<?php include "blogspot.php" ?>
+	<?php include("blogspot.php"); ?>
 
-    <?php include 'footer.php' ?>
+	<?php include("footer.php"); ?>
 
     
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>

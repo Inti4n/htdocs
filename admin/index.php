@@ -59,10 +59,10 @@ include("../connections.php");
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include 'header.php' ?>
+<?php include("header.php"); ?>
 
 <body>
-<?php include 'navbar.php' ?>
+<?php include("navbar.php"); ?>
     <div id="videoContainer" class="mobile-background">
         <div class="container-fluid d-flex justify-content-center align-items-center align-content-center video-parallax-container">
             <div class="row">
@@ -83,7 +83,7 @@ include("../connections.php");
         <br></div>
 
         
-<?php include 'footer.php' ?>
+        <?php include("footer.php"); ?>
 
 
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>

@@ -59,10 +59,10 @@ include("../connections.php");
 <!DOCTYPE html>
 <html lang="en">
     
-<?php include 'header.php' ?>
+<?php include("header.php"); ?>
 
 <body>
-<?php include 'navbar.php' ?>
+<?php include("navbar.php"); ?>
 
     <div class="d-flex justify-content-center align-items-center"><img class="img-fluid d-flex justify-content-center align-items-center bsmslogo" data-aos="zoom-in-up" data-aos-duration="1000" src="assets/img/bsms.png"></div>
     <div>
@@ -79,7 +79,7 @@ include("../connections.php");
     <div class="d-flex justify-content-center align-items-center"><img class="img-fluid d-flex justify-content-center align-items-center bsmslogo" data-aos="flip-left" data-aos-duration="1000" src="assets/img/communitybg.png"></div>
     
     
-    <?php include 'footer.php' ?>
+	<?php include("footer.php"); ?>
 
 
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>

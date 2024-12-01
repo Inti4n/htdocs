@@ -99,10 +99,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include 'header.php' ?>
+<?php include("header.php"); ?>
 
 <body>
-<?php include 'navbar.php' ?>
+<?php include("navbar.php"); ?>
     <div class="container-fluid">
         <div class="row mh-100vh">
             <div class="col-10 col-sm-8 col-md-6 col-lg-6 offset-1 offset-sm-2 offset-md-3 offset-lg-0 align-self-center d-lg-flex align-items-lg-center align-self-lg-stretch bg-white p-5 rounded rounded-lg-0 my-5 my-lg-0" id="login-block">
@@ -149,7 +149,7 @@
         </div>
     </div>
 
-    <?php include 'footer.php' ?>
+	<?php include("footer.php"); ?>
 
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>

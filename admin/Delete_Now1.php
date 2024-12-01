@@ -2,17 +2,11 @@
 
 include("connections.php");
 
-	$db_vacidno = $_POST["db_vacidno"];	
+	$db_brimsidno = $_POST["db_brimsidno"];	
 
 
-		mysqli_query($connections, "DELETE FROM tbl_vacinfo WHERE vacidno = '$db_vacidno' ");
-		mysqli_query($connections, "DELETE FROM tbl_prevac1stdose WHERE vacidno = '$db_vacidno' ");
-		mysqli_query($connections, "DELETE FROM tbl_vacdetails1stdose WHERE vacidno = '$db_vacidno' ");
-		mysqli_query($connections, "DELETE FROM tbl_postvac1stdose WHERE vacidno = '$db_vacidno' ");
-		mysqli_query($connections, "DELETE FROM tbl_prevac2nddose WHERE vacidno = '$db_vacidno' ");
-		mysqli_query($connections, "DELETE FROM tbl_vacdetails2nddose WHERE vacidno = '$db_vacidno' ");
-		mysqli_query($connections, "DELETE FROM tbl_postvac2nddose WHERE vacidno = '$db_vacidno' ");
-		mysqli_query($connections, "DELETE FROM tbl_booster WHERE vacidno = '$db_vacidno' ");
+		mysqli_query($connections, "DELETE FROM tbl_residentinfo WHERE brimsidno = '$db_brimsidno' ");
+		
 
 			echo "<script language='javascript'>alert('Record has been Deleted!')</script>";
 			echo "<script>window.location.href='regformadmin.php';</script>";

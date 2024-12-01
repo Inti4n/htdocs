@@ -60,10 +60,10 @@ include("../connections.php");
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include 'header.php' ?>
+<?php include("header.php"); ?>
 
 <body>
-<?php include 'navbar.php' ?>
+<?php include("navbar.php"); ?>
     <div class="d-flex justify-content-center align-items-center"><img class="img-fluid d-flex justify-content-center align-items-center bsmslogo" data-aos="flip-up" data-aos-duration="1000" src="assets/img/complaint.png"></div>
     <div>
         <div>
@@ -76,7 +76,7 @@ include("../connections.php");
     <h2 class="text-center" style="color: rgb(0,153,51);font-size: 50px;font-family: Roboto, sans-serif;"><strong>Request Forms</strong><br></h2>
     
 
-    <?php include 'footer.php' ?>
+	<?php include("footer.php"); ?>
 
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>

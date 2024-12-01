@@ -31,10 +31,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include 'header.php' ?>
+<?php include("header.php"); ?>
 
 <body>
-<?php include 'navbar.php' ?>
+<?php include("navbar.php"); ?>
 
     <div><a class="text-center d-flex justify-content-center align-items-center" href="#" target="_blank" style="color: #009933;font-size: 29px;font-family: Roboto, sans-serif;">Barangay</a></div>
     <div>
@@ -44,7 +44,7 @@
         </div>
     </div>
 
-    <?php include 'footer.php' ?>
+    <?php include("footer.php"); ?>
 
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>

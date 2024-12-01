@@ -51,10 +51,10 @@
 <!DOCTYPE html>
 <html lang="en">
     
-<?php include 'header.php' ?>
+<?php include("header.php"); ?>
 
 <body>
-<?php include 'navbar.php' ?>
+<?php include("navbar.php"); ?>
     <div>
         <div class="d-flex justify-content-center align-items-center"><img class="img-fluid d-flex justify-content-center align-items-center searchbg" data-aos="fade-up" data-aos-duration="1000" src="assets/img/customerservice.webp"></div>
         <div>
@@ -72,7 +72,7 @@
         </div>
     </div>
 
-    <?php include 'footer.php' ?>
+	<?php include("footer.php"); ?>
 
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>

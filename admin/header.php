@@ -29,4 +29,12 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/Video-Parallax-Background-v3.css">
     <link rel="shortcut icon" href="brimslogo.png" type="images/png" />
+
+
+<style>
+.error {
+	color: red;
+}
+</style>
+
 </head>

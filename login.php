@@ -80,10 +80,10 @@ include("connections.php");
 <!DOCTYPE html>
 <html lang="en">
 	
-<?php include 'header.php' ?>
+<?php include("header.php"); ?>
 
 <body>
-<?php include 'navbar.php' ?>
+<?php include("navbar.php"); ?>
 
     <div class="container-fluid">
         <div class="row mh-100vh">
@@ -116,7 +116,7 @@ include("connections.php");
         </div>
     </div>
 
-    <?php include 'footer.php' ?>
+	<?php include("footer.php"); ?>
 
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
